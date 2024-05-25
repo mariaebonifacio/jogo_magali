@@ -17,11 +17,11 @@ class Magali:
     def movimentosTeclas (self,direita,esquerda):
         keys = pygame.key.get_pressed()
         if keys [direita]:
-            if self.posX < 800 - self.largura:
+            if self.posX < 850:
                 self.posX = self.posX + 5
-            elif keys [esquerda]:
-                if self.posX > 0:
-                    self.posX = self.posX - 5
+        elif keys [esquerda]:
+            if self.posX > 0:
+                self.posX = self.posX - 5
 
 
     def poder_especial(self,tecla):

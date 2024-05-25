@@ -49,7 +49,7 @@ while rodando:
             fruta.posY = 0
             fruta.posX = random.randint(200,600)
 
-        if pontuacao == 12:
+        if pontuacao == 10:
             texto_vencedor = fonte2.render("Você ganhou!!",False,(255,255,255))
             tela.blit(texto_vencedor, (400,250))
             pygame.display.update()
