@@ -53,7 +53,7 @@ while rodando:
             texto_vencedor = fonte2.render("Você ganhou!!",False,(255,255,255))
             tela.blit(texto_vencedor, (400,250))
             pygame.display.update()
-            pygame.time.wait(250)
+            pygame.time.wait(2000)
             rodando = False
 
     for brinquedos in lista_ruins:
@@ -64,7 +64,7 @@ while rodando:
             texto_perdedor = fonte2.render("Você perdeu!",False,(255,255,255))
             tela.blit(texto_perdedor, (400,250))
             pygame.display.update()
-            pygame.time.wait(1250)
+            pygame.time.wait(2000)
             rodando = False
 
 
